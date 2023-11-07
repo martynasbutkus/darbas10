@@ -20,20 +20,18 @@ body{
     margin-top: 50px;
     align-items: center;
 }
-.transperent{
-    background-color: rgba(255, 255, 255, 0.212);
-    border-radius: 5px;
-    box-sizing: border-box;
-}
 .box{
     text-align: center;
-    width: 200px;
+    width: 250px;
     font-size: 18px;
     font-weight: bold;
     padding: 20px;
     min-width: 0;
+    background-color: rgba(255, 255, 255, 0.212);
+    border-radius: 5px;
+    box-sizing: border-box;
 }
-.container .transperent .box ul li{
+.container .box ul li{
     text-decoration: none;
     list-style: none;
     border-bottom: 1px solid grey;
@@ -42,7 +40,7 @@ body{
     line-height: 2.3;
     font-weight: 600;
 }
-.container .transperent .box ul li:nth-of-type(4){
+.container .box ul li:nth-of-type(4){
     border-bottom: none;
 }
 #line{
@@ -75,10 +73,7 @@ h1{
 
 /* RESPONSIVE RESIZE */
 @media (max-width: 700px) {
-    .transperent {
-      flex-basis: 47%;
-    }
     .box{
-        width: 200px;
+        width: 250px;
     }
   }
